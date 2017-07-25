@@ -16,7 +16,11 @@
         <meta name="viewport" content="width=device-width" />
         <?php wp_head(); ?>
     </head>
-    <body>
-        <h1 id="header">
-            <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
-        </h1>
+    <body <?php body_class(); ?>>
+        <header>
+
+            <h1 id="header">
+                <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+            </h1>
+            
+        </header>

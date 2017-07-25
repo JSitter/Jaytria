@@ -1,3 +1,4 @@
-    <footer>This is a wonderful footer</footer>
+    <?php wp_footer() ; ?>
+    <footer>Designed and built by Justin Sitter &copy2017</footer>
     </body>
 </html>
