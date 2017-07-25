@@ -1,0 +1,16 @@
+/*
+    Theme Name: Jaytria
+    Theme URI: http://www.jaytria.com
+    Author: Justin Sitter
+    Description: Simple Theme for Consideration at Yardi
+    Version: 0.1
+    License: MIT
+    License URI:
+    Text Domain: jaytria
+*/
+
+@import url('./css/desktop_style.css');
+*{
+    color: yellowgreen;
+    background-color: red;
+}
