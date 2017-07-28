@@ -9,4 +9,104 @@
     Text Domain: jaytria
 */
 
-@import url('./css/desktop_style.css');*/
+@import url('./css/desktop_style.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-image: url('./imgs/main-header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+header a{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    height: 300px;
+    background-color: #849491;
+    color: #ddd;
+}
+
+#site-heading{
+    float:left;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 45px;
+}
+
+.post_board{
+    margin-bottom: 40px;
+}
+
+.post_date{
+    font-family: 'Open Sans';
+    font-weight: bolder;
+}
+
+.post_container{
+    width: 100%;
+    padding-bottom: 75px;
+}
+.post_title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #ccc;
+    text-align: center;
+}
+.post_teaser{
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.post_link{
+        font-family: 'Open Sans';
+        font-weight: bolder;
+}
+
+.footer-text{
+    display: block;
+    bottom: 35px;
+}
+
+
+/* TEXT STYLES */
+
+h1, h2, h3, h4{
+    font-weight:normal;
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 40px;
+}
+
+footer{
+    clear:both;
+}
+
+body{
+    min-width: 300px;
+}

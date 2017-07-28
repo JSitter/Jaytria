@@ -14,12 +14,13 @@
         ?>
         <meta charset="<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width" />
+       
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
         <header>
 
-            <h1 id="header">
+            <h1 id="site-heading">
                 <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
             </h1>
             

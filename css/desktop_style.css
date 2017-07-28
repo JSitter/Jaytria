@@ -1,0 +1,42 @@
+@media (min-width:640px) and (max-width:1023px){
+    
+    .post_board{
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .post_container{
+        width: 100%;
+    }
+
+    #site-heading{
+        font-size: 80px !important;
+    }
+}
+
+@media ( min-width:1024px ){
+    .post_title{
+        height:150px;
+        
+    }
+
+    .post_board{
+        width: 1024px;
+        margin-right: auto;
+        margin-left: auto;
+        
+        
+    }
+    .post_container{
+        width: 492px !important;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    #site-heading{
+        font-size: 80px !important;
+    }
+
+}
